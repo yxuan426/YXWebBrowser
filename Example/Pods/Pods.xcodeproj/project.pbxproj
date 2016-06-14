@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		129230224647362A84361124BCC5D949 /* YXWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DB6FFA31772B98913F2484EF9CF287 /* YXWebBrowserViewController.m */; };
+		1CB8DAE473CA9886F989EC325E447BAB /* YXWebProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EB65D286B96C38D8117450ECF87EB5 /* YXWebProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D6A8FB68A73C7D756794F94616B40CE /* YXWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56112B1DF348C15F6866DACB80B482A3 /* YXWKWebViewController.m */; };
+		22CF3FC52F13C6A03C8F3FC485A9AFC1 /* YXWebBrowserViewController_extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 434E8AF26EB204641F568607D9AB9B14 /* YXWebBrowserViewController_extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24EC08B83B40CD07C07A73EEA8F75008 /* YXUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA773725FC277FCADACFED496EC86508 /* YXUIWebViewController.m */; };
+		32EFF502FBA4473781B2B65FD697B345 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 019E2FE0A9E645ED2BFB053960A390E4 /* NJKWebViewProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34208528C6EDCDFA1D71A05C1BB322F0 /* Pods-YXWebBrowser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23898FD18C3A6A468A05792B69F6271E /* Pods-YXWebBrowser_Tests-dummy.m */; };
+		3747DBB91A9F2F1510F1F9DD9E5D19C0 /* Pods-YXWebBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 620F9ED224408D6F38CF211DA48706F1 /* Pods-YXWebBrowser_Example-dummy.m */; };
+		472117EDF3ADE683AB3D5977122E0DAD /* RegExCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 752FA67535FD51D9C323E1149944B792 /* RegExCategories-dummy.m */; };
+		4E776DD62CBDDAE18C2C02566B1C7722 /* YXWebBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C29315C51C98D4CF23844DB38CD8DF /* YXWebBrowser-dummy.m */; };
+		4FCB116468F91C7E27C78B556F23338D /* RegExCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1381BBEE918B85FACBDA5A892C109C /* RegExCategories.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		578F125EC37E3864A04122B372D1564A /* YXWebProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CAC7BB300526C95F5EC7419F7CF122 /* YXWebProgressView.m */; };
+		612D03B97F40B29A9BE5121C1A38BE77 /* YXWKWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6032976702F2C58A5E9662CE064B936 /* YXWKWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		690E765DAAC5F2652436C623824501B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		80785EE671A234F497F9D7B458D02223 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A09D4C93DAA5B930D2C9DEB372B92812 /* NJKWebViewProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		82FAAF6FFAA22531B4572DD293395D1D /* YXWebNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C1FD396E5AA422C269BC655C582F32 /* YXWebNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847895E46392EABC84629EC96BF78335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		8BDB25C8E779FFFC16963F7A84DABA2E /* YXUIWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 56260826BF5190D8C4A0366F04ED8AC4 /* YXUIWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2A3685A707B7F40BBDE1A6E0C7FE7DD /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4C1502B34A0465BBDE0957EEF1109C /* NJKWebViewProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A474D6E2B25C5B2A7625C7C9A075CFAE /* YXWebBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 576245CA9CF4710DD975DD0FB464B473 /* YXWebBrowserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5975FC38EB963C49A664DD520E71687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		AA58D3EEFCBED00AA256325D80519762 /* NJKWebViewProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F3A223719BE6313C694C823E611CF /* NJKWebViewProgress-dummy.m */; };
+		B6C60E69AA7748CD6982A4BF117A0205 /* RegExCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B2CFD6E4D9434ECEC311336EE8AB20 /* RegExCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C05869C4B3E56385AEE68C1464088E49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		C2B6A6122D053017F584D50EFF10F298 /* YXWebNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 275B7757A00EE3808C57697E0E309B8A /* YXWebNavigationBar.m */; };
+		D7C17AA16ECB3170117DD1B62305D64D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		E986975088E6552CE4CCEE96762A0703 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = AE291A9A73E0804650B4849C6EFED8FD /* NJKWebViewProgress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13D5A09519B40C2ED84E1261EF9958E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4A3E08D49931371F7247521A50EAF79;
+			remoteInfo = NJKWebViewProgress;
+		};
+		7BE72958FEB1B114B37A0524DB6D9DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60FA7988C61A06DA56E030E3B32E2D8;
+			remoteInfo = YXWebBrowser;
+		};
+		A90FD4AA41B0B42123652CA3A2FA03FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4A3E08D49931371F7247521A50EAF79;
+			remoteInfo = NJKWebViewProgress;
+		};
+		B2D39B32BB64C7EF10207DC627920515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1277648137F0908DFC59648A415C4E15;
+			remoteInfo = RegExCategories;
+		};
+		EBFF37BF37CE5CFF450B0E9F01C00A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1277648137F0908DFC59648A415C4E15;
+			remoteInfo = RegExCategories;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019E2FE0A9E645ED2BFB053960A390E4 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgress.h; path = NJKWebViewProgress/NJKWebViewProgress.h; sourceTree = "<group>"; };
+		12292FF7C2A25B5911527BA470FC2A10 /* YXWebBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YXWebBrowser.xcconfig; sourceTree = "<group>"; };
+		191F3424E4703A48DBF8EA3671191B40 /* NJKWebViewProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NJKWebViewProgress.xcconfig; sourceTree = "<group>"; };
+		20CAC7BB300526C95F5EC7419F7CF122 /* YXWebProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YXWebProgressView.m; sourceTree = "<group>"; };
+		23898FD18C3A6A468A05792B69F6271E /* Pods-YXWebBrowser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YXWebBrowser_Tests-dummy.m"; sourceTree = "<group>"; };
+		24DB6FFA31772B98913F2484EF9CF287 /* YXWebBrowserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YXWebBrowserViewController.m; sourceTree = "<group>"; };
+		26442B4EDBE1A8D7C949692AD88A56BD /* Pods-YXWebBrowser_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YXWebBrowser_Example-resources.sh"; sourceTree = "<group>"; };
+		275B7757A00EE3808C57697E0E309B8A /* YXWebNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YXWebNavigationBar.m; sourceTree = "<group>"; };
+		379102343205D0A5788171C393B75D57 /* Pods-YXWebBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXWebBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		434E8AF26EB204641F568607D9AB9B14 /* YXWebBrowserViewController_extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YXWebBrowserViewController_extension.h; sourceTree = "<group>"; };
+		4A4C1502B34A0465BBDE0957EEF1109C /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = NJKWebViewProgress/NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		4C1D9CCF2647A5496A5FBA35C381D807 /* libYXWebBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYXWebBrowser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56112B1DF348C15F6866DACB80B482A3 /* YXWKWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YXWKWebViewController.m; sourceTree = "<group>"; };
+		56260826BF5190D8C4A0366F04ED8AC4 /* YXUIWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YXUIWebViewController.h; sourceTree = "<group>"; };
+		576245CA9CF4710DD975DD0FB464B473 /* YXWebBrowserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YXWebBrowserViewController.h; sourceTree = "<group>"; };
+		620F9ED224408D6F38CF211DA48706F1 /* Pods-YXWebBrowser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YXWebBrowser_Example-dummy.m"; sourceTree = "<group>"; };
+		66E664C9B5BBDCC30BDC01ED20BF8096 /* YXWebBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = YXWebBrowser.bundle; sourceTree = "<group>"; };
+		752FA67535FD51D9C323E1149944B792 /* RegExCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RegExCategories-dummy.m"; sourceTree = "<group>"; };
+		846F3A223719BE6313C694C823E611CF /* NJKWebViewProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NJKWebViewProgress-dummy.m"; sourceTree = "<group>"; };
+		882C1B3F0871BC91D5D77B3774F0FD48 /* Pods-YXWebBrowser_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YXWebBrowser_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		905DAB519E66AC3F30465A22803069D3 /* libRegExCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRegExCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		92122910D7239DC6FD3B41847AE7AE9E /* Pods-YXWebBrowser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YXWebBrowser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		946ADA488DCCB4260B1C6C23CAEAD75F /* Pods-YXWebBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YXWebBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9B72733F3345980B8EA022416B15A2CD /* Pods-YXWebBrowser_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YXWebBrowser_Tests-resources.sh"; sourceTree = "<group>"; };
+		9D5800DC607F3BEA8D3D21A034F0749D /* Pods-YXWebBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXWebBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A09D4C93DAA5B930D2C9DEB372B92812 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = NJKWebViewProgress/NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		A5C1FD396E5AA422C269BC655C582F32 /* YXWebNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YXWebNavigationBar.h; sourceTree = "<group>"; };
+		AE291A9A73E0804650B4849C6EFED8FD /* NJKWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgress.m; path = NJKWebViewProgress/NJKWebViewProgress.m; sourceTree = "<group>"; };
+		B71AE4C0BE34B7633F4291C431ED66BC /* libPods-YXWebBrowser_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXWebBrowser_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC19752D055ECE001FA3EA0848163F4 /* libPods-YXWebBrowser_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXWebBrowser_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02AB50DF6E4DE040B6AB130F81295EA /* Pods-YXWebBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXWebBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C59392AAA1622D82342CEA17076969D8 /* Pods-YXWebBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXWebBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6EB65D286B96C38D8117450ECF87EB5 /* YXWebProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YXWebProgressView.h; sourceTree = "<group>"; };
+		C898EE3AE97D20EFBAFAE64AE59782EA /* YXWebBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXWebBrowser-prefix.pch"; sourceTree = "<group>"; };
+		C9C29315C51C98D4CF23844DB38CD8DF /* YXWebBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YXWebBrowser-dummy.m"; sourceTree = "<group>"; };
+		CABB293E08AB43121B53481B582C594A /* Pods-YXWebBrowser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXWebBrowser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0698E13B9F4078E9474A19778B93A42 /* RegExCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RegExCategories.xcconfig; sourceTree = "<group>"; };
+		D4B2CFD6E4D9434ECEC311336EE8AB20 /* RegExCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RegExCategories.h; sourceTree = "<group>"; };
+		DAD4DD215FA44AFF3590A755B9E38A48 /* Pods-YXWebBrowser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YXWebBrowser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E01C63C596A3A650A11D73430E9BB238 /* Pods-YXWebBrowser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXWebBrowser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E59A66D36950B8D42B8021AAD175D23A /* RegExCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RegExCategories-prefix.pch"; sourceTree = "<group>"; };
+		EDD0B31ED229E112EE41539415AE956F /* NJKWebViewProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NJKWebViewProgress-prefix.pch"; sourceTree = "<group>"; };
+		F6032976702F2C58A5E9662CE064B936 /* YXWKWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YXWKWebViewController.h; sourceTree = "<group>"; };
+		FA773725FC277FCADACFED496EC86508 /* YXUIWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YXUIWebViewController.m; sourceTree = "<group>"; };
+		FDB0F761B8FE1F4F40DF3858664EBCEC /* libNJKWebViewProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNJKWebViewProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1381BBEE918B85FACBDA5A892C109C /* RegExCategories.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RegExCategories.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15BD16DE0287DC918A73DCDBB69FE66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690E765DAAC5F2652436C623824501B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8918060A7D4FDA587CC0E3DBE226B186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05869C4B3E56385AEE68C1464088E49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9059AC276AEAEE67CA6CD37776499A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847895E46392EABC84629EC96BF78335 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3E20B9117A8A16FC0323B2E3ED8831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C17AA16ECB3170117DD1B62305D64D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E039CE8F356A576D744CE6F2B6DA6A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5975FC38EB963C49A664DD520E71687 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080B351336066534E871EDCECC397E13 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				019E2FE0A9E645ED2BFB053960A390E4 /* NJKWebViewProgress.h */,
+				AE291A9A73E0804650B4849C6EFED8FD /* NJKWebViewProgress.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1A1BA73B3FD45BF87CCCBA256CE903C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12292FF7C2A25B5911527BA470FC2A10 /* YXWebBrowser.xcconfig */,
+				C9C29315C51C98D4CF23844DB38CD8DF /* YXWebBrowser-dummy.m */,
+				C898EE3AE97D20EFBAFAE64AE59782EA /* YXWebBrowser-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YXWebBrowser";
+			sourceTree = "<group>";
+		};
+		1C7AAEC023E585BE1E9C26A56F4C990E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E97D4DC40580E6F7AA3993F874C5544B /* NJKWebViewProgress */,
+				C89143F58095FA189809D8EF3A385BB2 /* RegExCategories */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2DE7E6C428894AED43A0634183119F23 /* Pods-YXWebBrowser_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				92122910D7239DC6FD3B41847AE7AE9E /* Pods-YXWebBrowser_Tests-acknowledgements.markdown */,
+				CABB293E08AB43121B53481B582C594A /* Pods-YXWebBrowser_Tests-acknowledgements.plist */,
+				23898FD18C3A6A468A05792B69F6271E /* Pods-YXWebBrowser_Tests-dummy.m */,
+				882C1B3F0871BC91D5D77B3774F0FD48 /* Pods-YXWebBrowser_Tests-frameworks.sh */,
+				9B72733F3345980B8EA022416B15A2CD /* Pods-YXWebBrowser_Tests-resources.sh */,
+				C59392AAA1622D82342CEA17076969D8 /* Pods-YXWebBrowser_Tests.debug.xcconfig */,
+				9D5800DC607F3BEA8D3D21A034F0749D /* Pods-YXWebBrowser_Tests.release.xcconfig */,
+			);
+			name = "Pods-YXWebBrowser_Tests";
+			path = "Target Support Files/Pods-YXWebBrowser_Tests";
+			sourceTree = "<group>";
+		};
+		352250C4FF85E9F86F5954F6764375AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D71C73C1854924C6165B27470B26804D /* NavigationBar */,
+				AB6BF84CF039827BCA001627CA5A08E2 /* ProgressView */,
+				99F4D5E450EC791F4BF55A03D1630B49 /* WebBrowser */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3FCFC2D906E066F963187D31BE0922AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				191F3424E4703A48DBF8EA3671191B40 /* NJKWebViewProgress.xcconfig */,
+				846F3A223719BE6313C694C823E611CF /* NJKWebViewProgress-dummy.m */,
+				EDD0B31ED229E112EE41539415AE956F /* NJKWebViewProgress-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NJKWebViewProgress";
+			sourceTree = "<group>";
+		};
+		6AB1D62E5379F9EB13D42B159473F02D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				846B2F5826930A84F39250CEC2613AB3 /* Pods-YXWebBrowser_Example */,
+				2DE7E6C428894AED43A0634183119F23 /* Pods-YXWebBrowser_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6C989B1C4AB03D31B5DAA49FE215AC82 /* YXWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				352250C4FF85E9F86F5954F6764375AD /* Classes */,
+			);
+			path = YXWebBrowser;
+			sourceTree = "<group>";
+		};
+		7209A7F4BF80D06F880699350CFE9145 /* YXWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				BA2D6AD102B918D78B69D4BAA373A90A /* Resources */,
+				1A1BA73B3FD45BF87CCCBA256CE903C4 /* Support Files */,
+				6C989B1C4AB03D31B5DAA49FE215AC82 /* YXWebBrowser */,
+			);
+			name = YXWebBrowser;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7C5B188E3847F8EDEE038C0B8D8858B8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				66E664C9B5BBDCC30BDC01ED20BF8096 /* YXWebBrowser.bundle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BEC5119697F229D23F4C3886873129B9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1C7AAEC023E585BE1E9C26A56F4C990E /* Pods */,
+				F330C140DCE99AF0FE8FBE0E18B0D7B6 /* Products */,
+				6AB1D62E5379F9EB13D42B159473F02D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		846B2F5826930A84F39250CEC2613AB3 /* Pods-YXWebBrowser_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DAD4DD215FA44AFF3590A755B9E38A48 /* Pods-YXWebBrowser_Example-acknowledgements.markdown */,
+				E01C63C596A3A650A11D73430E9BB238 /* Pods-YXWebBrowser_Example-acknowledgements.plist */,
+				620F9ED224408D6F38CF211DA48706F1 /* Pods-YXWebBrowser_Example-dummy.m */,
+				946ADA488DCCB4260B1C6C23CAEAD75F /* Pods-YXWebBrowser_Example-frameworks.sh */,
+				26442B4EDBE1A8D7C949692AD88A56BD /* Pods-YXWebBrowser_Example-resources.sh */,
+				C02AB50DF6E4DE040B6AB130F81295EA /* Pods-YXWebBrowser_Example.debug.xcconfig */,
+				379102343205D0A5788171C393B75D57 /* Pods-YXWebBrowser_Example.release.xcconfig */,
+			);
+			name = "Pods-YXWebBrowser_Example";
+			path = "Target Support Files/Pods-YXWebBrowser_Example";
+			sourceTree = "<group>";
+		};
+		94ABEC6DC7C0A2D3BA419980887C2E7A /* YXWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B188E3847F8EDEE038C0B8D8858B8 /* Assets */,
+			);
+			path = YXWebBrowser;
+			sourceTree = "<group>";
+		};
+		99F4D5E450EC791F4BF55A03D1630B49 /* WebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				56260826BF5190D8C4A0366F04ED8AC4 /* YXUIWebViewController.h */,
+				FA773725FC277FCADACFED496EC86508 /* YXUIWebViewController.m */,
+				576245CA9CF4710DD975DD0FB464B473 /* YXWebBrowserViewController.h */,
+				24DB6FFA31772B98913F2484EF9CF287 /* YXWebBrowserViewController.m */,
+				434E8AF26EB204641F568607D9AB9B14 /* YXWebBrowserViewController_extension.h */,
+				F6032976702F2C58A5E9662CE064B936 /* YXWKWebViewController.h */,
+				56112B1DF348C15F6866DACB80B482A3 /* YXWKWebViewController.m */,
+			);
+			path = WebBrowser;
+			sourceTree = "<group>";
+		};
+		A2D9273BD977F1091201D3603376D554 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0698E13B9F4078E9474A19778B93A42 /* RegExCategories.xcconfig */,
+				752FA67535FD51D9C323E1149944B792 /* RegExCategories-dummy.m */,
+				E59A66D36950B8D42B8021AAD175D23A /* RegExCategories-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RegExCategories";
+			sourceTree = "<group>";
+		};
+		AB6BF84CF039827BCA001627CA5A08E2 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				C6EB65D286B96C38D8117450ECF87EB5 /* YXWebProgressView.h */,
+				20CAC7BB300526C95F5EC7419F7CF122 /* YXWebProgressView.m */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		BA2D6AD102B918D78B69D4BAA373A90A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94ABEC6DC7C0A2D3BA419980887C2E7A /* YXWebBrowser */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEC5119697F229D23F4C3886873129B9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7209A7F4BF80D06F880699350CFE9145 /* YXWebBrowser */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C2C1D6A542AC82C0FA554535829928EC /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				4A4C1502B34A0465BBDE0957EEF1109C /* NJKWebViewProgressView.h */,
+				A09D4C93DAA5B930D2C9DEB372B92812 /* NJKWebViewProgressView.m */,
+			);
+			name = ProgressView;
+			sourceTree = "<group>";
+		};
+		C89143F58095FA189809D8EF3A385BB2 /* RegExCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D4B2CFD6E4D9434ECEC311336EE8AB20 /* RegExCategories.h */,
+				FE1381BBEE918B85FACBDA5A892C109C /* RegExCategories.m */,
+				A2D9273BD977F1091201D3603376D554 /* Support Files */,
+			);
+			path = RegExCategories;
+			sourceTree = "<group>";
+		};
+		D71C73C1854924C6165B27470B26804D /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				A5C1FD396E5AA422C269BC655C582F32 /* YXWebNavigationBar.h */,
+				275B7757A00EE3808C57697E0E309B8A /* YXWebNavigationBar.m */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		E97D4DC40580E6F7AA3993F874C5544B /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				080B351336066534E871EDCECC397E13 /* Core */,
+				C2C1D6A542AC82C0FA554535829928EC /* ProgressView */,
+				3FCFC2D906E066F963187D31BE0922AD /* Support Files */,
+			);
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+		F330C140DCE99AF0FE8FBE0E18B0D7B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB0F761B8FE1F4F40DF3858664EBCEC /* libNJKWebViewProgress.a */,
+				BCC19752D055ECE001FA3EA0848163F4 /* libPods-YXWebBrowser_Example.a */,
+				B71AE4C0BE34B7633F4291C431ED66BC /* libPods-YXWebBrowser_Tests.a */,
+				905DAB519E66AC3F30465A22803069D3 /* libRegExCategories.a */,
+				4C1D9CCF2647A5496A5FBA35C381D807 /* libYXWebBrowser.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CDC27797D7C71AF2D103FB7CA80E1A43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDB25C8E779FFFC16963F7A84DABA2E /* YXUIWebViewController.h in Headers */,
+				A474D6E2B25C5B2A7625C7C9A075CFAE /* YXWebBrowserViewController.h in Headers */,
+				22CF3FC52F13C6A03C8F3FC485A9AFC1 /* YXWebBrowserViewController_extension.h in Headers */,
+				82FAAF6FFAA22531B4572DD293395D1D /* YXWebNavigationBar.h in Headers */,
+				1CB8DAE473CA9886F989EC325E447BAB /* YXWebProgressView.h in Headers */,
+				612D03B97F40B29A9BE5121C1A38BE77 /* YXWKWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B7135FB296FB1FF0B9A7CDD9B0CFE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C60E69AA7748CD6982A4BF117A0205 /* RegExCategories.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5686F09F8A6A619FEDFE0C36083294 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EFF502FBA4473781B2B65FD697B345 /* NJKWebViewProgress.h in Headers */,
+				A2A3685A707B7F40BBDE1A6E0C7FE7DD /* NJKWebViewProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1277648137F0908DFC59648A415C4E15 /* RegExCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FED4B7BEE2C95A7AD6763E498533B29 /* Build configuration list for PBXNativeTarget "RegExCategories" */;
+			buildPhases = (
+				4E69226E22A00B875230CBD18E4FFC33 /* Sources */,
+				BD3E20B9117A8A16FC0323B2E3ED8831 /* Frameworks */,
+				E1B7135FB296FB1FF0B9A7CDD9B0CFE2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegExCategories;
+			productName = RegExCategories;
+			productReference = 905DAB519E66AC3F30465A22803069D3 /* libRegExCategories.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2CC1814404FF4F83C1E554A3A10C01B6 /* Pods-YXWebBrowser_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74D1E54C25F9E357CDE1046371626B25 /* Build configuration list for PBXNativeTarget "Pods-YXWebBrowser_Tests" */;
+			buildPhases = (
+				2A8855D3FFE3FF2CEF3FD8C317396D43 /* Sources */,
+				E039CE8F356A576D744CE6F2B6DA6A03 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YXWebBrowser_Tests";
+			productName = "Pods-YXWebBrowser_Tests";
+			productReference = B71AE4C0BE34B7633F4291C431ED66BC /* libPods-YXWebBrowser_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5498C88A4AD5794C55E75127714A320F /* Pods-YXWebBrowser_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56ACB6F7E91D10C8D858756851BD44D0 /* Build configuration list for PBXNativeTarget "Pods-YXWebBrowser_Example" */;
+			buildPhases = (
+				4FFD49FC6A4575AC1C9ADFBA89846CE4 /* Sources */,
+				8918060A7D4FDA587CC0E3DBE226B186 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F9FBCB463A2D10CCD0E21207BE50B7F /* PBXTargetDependency */,
+				D5BEE515E5414B93B5498464F7D68EFC /* PBXTargetDependency */,
+				9D10AECA660452C78987FC7EEBE7DBC5 /* PBXTargetDependency */,
+			);
+			name = "Pods-YXWebBrowser_Example";
+			productName = "Pods-YXWebBrowser_Example";
+			productReference = BCC19752D055ECE001FA3EA0848163F4 /* libPods-YXWebBrowser_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B4A3E08D49931371F7247521A50EAF79 /* NJKWebViewProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BA31DD0B8A4F55B5014D132B6BFFF5 /* Build configuration list for PBXNativeTarget "NJKWebViewProgress" */;
+			buildPhases = (
+				3619A66CEAF955C359CF25CBCC468ADE /* Sources */,
+				9059AC276AEAEE67CA6CD37776499A2F /* Frameworks */,
+				EA5686F09F8A6A619FEDFE0C36083294 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJKWebViewProgress;
+			productName = NJKWebViewProgress;
+			productReference = FDB0F761B8FE1F4F40DF3858664EBCEC /* libNJKWebViewProgress.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B60FA7988C61A06DA56E030E3B32E2D8 /* YXWebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA53E98B632A92CFC25354193AD1FF4A /* Build configuration list for PBXNativeTarget "YXWebBrowser" */;
+			buildPhases = (
+				54F5550716729FE45F5A5C3C93F21A42 /* Sources */,
+				15BD16DE0287DC918A73DCDBB69FE66F /* Frameworks */,
+				CDC27797D7C71AF2D103FB7CA80E1A43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5823C17ACE9C15D356A8EE9CA963F7 /* PBXTargetDependency */,
+				AF8BCC1500ECD72E6458E8DC09CA012A /* PBXTargetDependency */,
+			);
+			name = YXWebBrowser;
+			productName = YXWebBrowser;
+			productReference = 4C1D9CCF2647A5496A5FBA35C381D807 /* libYXWebBrowser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F330C140DCE99AF0FE8FBE0E18B0D7B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4A3E08D49931371F7247521A50EAF79 /* NJKWebViewProgress */,
+				5498C88A4AD5794C55E75127714A320F /* Pods-YXWebBrowser_Example */,
+				2CC1814404FF4F83C1E554A3A10C01B6 /* Pods-YXWebBrowser_Tests */,
+				1277648137F0908DFC59648A415C4E15 /* RegExCategories */,
+				B60FA7988C61A06DA56E030E3B32E2D8 /* YXWebBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A8855D3FFE3FF2CEF3FD8C317396D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34208528C6EDCDFA1D71A05C1BB322F0 /* Pods-YXWebBrowser_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3619A66CEAF955C359CF25CBCC468ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA58D3EEFCBED00AA256325D80519762 /* NJKWebViewProgress-dummy.m in Sources */,
+				E986975088E6552CE4CCEE96762A0703 /* NJKWebViewProgress.m in Sources */,
+				80785EE671A234F497F9D7B458D02223 /* NJKWebViewProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E69226E22A00B875230CBD18E4FFC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472117EDF3ADE683AB3D5977122E0DAD /* RegExCategories-dummy.m in Sources */,
+				4FCB116468F91C7E27C78B556F23338D /* RegExCategories.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFD49FC6A4575AC1C9ADFBA89846CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3747DBB91A9F2F1510F1F9DD9E5D19C0 /* Pods-YXWebBrowser_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F5550716729FE45F5A5C3C93F21A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EC08B83B40CD07C07A73EEA8F75008 /* YXUIWebViewController.m in Sources */,
+				4E776DD62CBDDAE18C2C02566B1C7722 /* YXWebBrowser-dummy.m in Sources */,
+				129230224647362A84361124BCC5D949 /* YXWebBrowserViewController.m in Sources */,
+				C2B6A6122D053017F584D50EFF10F298 /* YXWebNavigationBar.m in Sources */,
+				578F125EC37E3864A04122B372D1564A /* YXWebProgressView.m in Sources */,
+				1D6A8FB68A73C7D756794F94616B40CE /* YXWKWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F9FBCB463A2D10CCD0E21207BE50B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NJKWebViewProgress;
+			target = B4A3E08D49931371F7247521A50EAF79 /* NJKWebViewProgress */;
+			targetProxy = A90FD4AA41B0B42123652CA3A2FA03FC /* PBXContainerItemProxy */;
+		};
+		9D10AECA660452C78987FC7EEBE7DBC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YXWebBrowser;
+			target = B60FA7988C61A06DA56E030E3B32E2D8 /* YXWebBrowser */;
+			targetProxy = 7BE72958FEB1B114B37A0524DB6D9DBB /* PBXContainerItemProxy */;
+		};
+		AB5823C17ACE9C15D356A8EE9CA963F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NJKWebViewProgress;
+			target = B4A3E08D49931371F7247521A50EAF79 /* NJKWebViewProgress */;
+			targetProxy = 13D5A09519B40C2ED84E1261EF9958E2 /* PBXContainerItemProxy */;
+		};
+		AF8BCC1500ECD72E6458E8DC09CA012A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RegExCategories;
+			target = 1277648137F0908DFC59648A415C4E15 /* RegExCategories */;
+			targetProxy = EBFF37BF37CE5CFF450B0E9F01C00A31 /* PBXContainerItemProxy */;
+		};
+		D5BEE515E5414B93B5498464F7D68EFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RegExCategories;
+			target = 1277648137F0908DFC59648A415C4E15 /* RegExCategories */;
+			targetProxy = B2D39B32BB64C7EF10207DC627920515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CA2499823797B3D625AD499A7FC892D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C59392AAA1622D82342CEA17076969D8 /* Pods-YXWebBrowser_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		23B1FFA7DDCD8A1C0C9CF209DABC5BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02AB50DF6E4DE040B6AB130F81295EA /* Pods-YXWebBrowser_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		37B90AA23972A2B6F329C17DB6093FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0698E13B9F4078E9474A19778B93A42 /* RegExCategories.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RegExCategories/RegExCategories-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		381F29969CDEB37CFE5AC0B7A08454B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379102343205D0A5788171C393B75D57 /* Pods-YXWebBrowser_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		616EC77525B0C612E7AE685EF25A528D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0698E13B9F4078E9474A19778B93A42 /* RegExCategories.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RegExCategories/RegExCategories-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7DBCE342C09AE65F06470C7AC14D31C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5800DC607F3BEA8D3D21A034F0749D /* Pods-YXWebBrowser_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8A55E7E61F67154C54811631A7633672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12292FF7C2A25B5911527BA470FC2A10 /* YXWebBrowser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YXWebBrowser/YXWebBrowser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A2744BE561A0CD0F4083C58709B9529A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A7572CC9DEA707FB0B4DBC6AB4C83633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191F3424E4703A48DBF8EA3671191B40 /* NJKWebViewProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NJKWebViewProgress/NJKWebViewProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B6816AB8D39F17B302CB2E11563862F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191F3424E4703A48DBF8EA3671191B40 /* NJKWebViewProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NJKWebViewProgress/NJKWebViewProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E3D60555EA997BDF4998ED0DBF16A3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12292FF7C2A25B5911527BA470FC2A10 /* YXWebBrowser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YXWebBrowser/YXWebBrowser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F24A8E2465A7C10A54BE3E33D1A368A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2744BE561A0CD0F4083C58709B9529A /* Debug */,
+				F24A8E2465A7C10A54BE3E33D1A368A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FED4B7BEE2C95A7AD6763E498533B29 /* Build configuration list for PBXNativeTarget "RegExCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B90AA23972A2B6F329C17DB6093FDC /* Debug */,
+				616EC77525B0C612E7AE685EF25A528D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56ACB6F7E91D10C8D858756851BD44D0 /* Build configuration list for PBXNativeTarget "Pods-YXWebBrowser_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B1FFA7DDCD8A1C0C9CF209DABC5BB6 /* Debug */,
+				381F29969CDEB37CFE5AC0B7A08454B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74D1E54C25F9E357CDE1046371626B25 /* Build configuration list for PBXNativeTarget "Pods-YXWebBrowser_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA2499823797B3D625AD499A7FC892D /* Debug */,
+				7DBCE342C09AE65F06470C7AC14D31C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5BA31DD0B8A4F55B5014D132B6BFFF5 /* Build configuration list for PBXNativeTarget "NJKWebViewProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6816AB8D39F17B302CB2E11563862F7 /* Debug */,
+				A7572CC9DEA707FB0B4DBC6AB4C83633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA53E98B632A92CFC25354193AD1FF4A /* Build configuration list for PBXNativeTarget "YXWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D60555EA997BDF4998ED0DBF16A3C1 /* Debug */,
+				8A55E7E61F67154C54811631A7633672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

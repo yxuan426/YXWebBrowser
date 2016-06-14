@@ -1,0 +1,17 @@
+#use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs'
+
+platform :ios, '7.0'
+
+target 'YXWebBrowser_Example' do
+  pod 'YXWebBrowser', :path => '../'
+  pod 'RegExCategories', '~> 1.0'
+  pod 'NJKWebViewProgress', '~> 0.2.3'
+  
+  target 'YXWebBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

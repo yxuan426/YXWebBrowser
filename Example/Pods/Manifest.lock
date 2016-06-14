@@ -1,0 +1,28 @@
+PODS:
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - RegExCategories (1.0)
+  - YXWebBrowser (0.1.0):
+    - NJKWebViewProgress (~> 0.2.3)
+    - RegExCategories (~> 1.0)
+
+DEPENDENCIES:
+  - NJKWebViewProgress (~> 0.2.3)
+  - RegExCategories (~> 1.0)
+  - YXWebBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  YXWebBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
+  YXWebBrowser: 348b7c7b0ceacfcb5126e412438b500a0f196786
+
+PODFILE CHECKSUM: d830462322474cfa28d76c85bfd1c845151b8dc5
+
+COCOAPODS: 1.0.0.beta.5
